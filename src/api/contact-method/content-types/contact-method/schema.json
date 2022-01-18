@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_methods",
+  "info": {
+    "singularName": "contact-method",
+    "pluralName": "contact-methods",
+    "displayName": "ContactMethod"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
