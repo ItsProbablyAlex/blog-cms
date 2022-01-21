@@ -28,9 +28,6 @@
     "content": {
       "type": "richtext",
       "required": true
-    },
-    "updated": {
-      "type": "datetime"
     }
   }
 }
