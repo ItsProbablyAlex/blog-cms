@@ -30,6 +30,14 @@
       "type": "boolean",
       "default": false,
       "required": false
+    },
+    "navbarOrder": {
+      "unique": true,
+      "required": false,
+      "type": "integer"
+    },
+    "updated": {
+      "type": "datetime"
     }
   }
 }
