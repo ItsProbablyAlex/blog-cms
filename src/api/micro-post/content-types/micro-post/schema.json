@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "micro_posts",
+  "info": {
+    "singularName": "micro-post",
+    "pluralName": "micro-posts",
+    "displayName": "MicroPost"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
